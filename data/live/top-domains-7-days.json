@@ -1,0 +1,107 @@
+{
+  "name": "top-domains-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (7 Days)",
+    "description": "Last week's top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "nlm.nih.gov",
+      "visits": "12082093"
+    },
+    {
+      "domain": "forecast.weather.gov",
+      "visits": "10970906"
+    },
+    {
+      "domain": "irs.gov",
+      "visits": "4873108"
+    },
+    {
+      "domain": "cdc.gov",
+      "visits": "4393120"
+    },
+    {
+      "domain": "usajobs.gov",
+      "visits": "4026038"
+    },
+    {
+      "domain": "weather.gov",
+      "visits": "3503894"
+    },
+    {
+      "domain": "nps.gov",
+      "visits": "3131112"
+    },
+    {
+      "domain": "nasa.gov",
+      "visits": "2496292"
+    },
+    {
+      "domain": "uscis.gov",
+      "visits": "2471892"
+    },
+    {
+      "domain": "ssa.gov",
+      "visits": "1760396"
+    },
+    {
+      "domain": "socialsecurity.gov",
+      "visits": "1695959"
+    },
+    {
+      "domain": "ceac.state.gov",
+      "visits": "1490322"
+    },
+    {
+      "domain": "fda.gov",
+      "visits": "1432774"
+    },
+    {
+      "domain": "egov.uscis.gov",
+      "visits": "1225564"
+    },
+    {
+      "domain": "earthquake.usgs.gov",
+      "visits": "1191422"
+    },
+    {
+      "domain": "noaa.gov",
+      "visits": "1117963"
+    },
+    {
+      "domain": "fs.usda.gov",
+      "visits": "900223"
+    },
+    {
+      "domain": "bls.gov",
+      "visits": "880616"
+    },
+    {
+      "domain": "va.gov",
+      "visits": "784177"
+    },
+    {
+      "domain": "wrh.noaa.gov",
+      "visits": "775563"
+    }
+  ],
+  "totals": {
+    "visits": 61203434
+  },
+  "taken_at": "2015-08-19T05:10:23.732Z"
+}

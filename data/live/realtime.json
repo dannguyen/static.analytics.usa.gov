@@ -1,0 +1,20 @@
+{
+  "name": "realtime",
+  "query": {
+    "metrics": [
+      "rt:activeUsers"
+    ],
+    "max-results": 10000
+  },
+  "meta": {
+    "name": "Active Users Right Now",
+    "description": "Number of users currently visiting all sites."
+  },
+  "data": [
+    {
+      "active_visitors": "88250"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2015-08-20T00:40:03.079Z"
+}

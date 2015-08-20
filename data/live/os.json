@@ -1,0 +1,38 @@
+{
+  "name": "os",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:operatingSystem",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:sessions>1000",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "names": "Operating Systems",
+    "description": "90 days of visits, broken down by operating system and date, for all sites."
+  },
+  "totals": {
+    "visits": 1400970087,
+    "os": {
+      "Android": 220836506,
+      "BlackBerry": 2361035,
+      "Windows Phone": 6672911,
+      "iOS": 246726909,
+      "Linux": 10114611,
+      "Macintosh": 115684736,
+      "Windows": 788050581,
+      "Other": 10522798
+    },
+    "start_date": "2015-05-21",
+    "end_date": "2015-08-18"
+  },
+  "taken_at": "2015-08-19T05:10:05.446Z"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "top-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (30 Days)",
+    "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "nlm.nih.gov",
+      "visits": "52203438"
+    },
+    {
+      "domain": "forecast.weather.gov",
+      "visits": "47264042"
+    },
+    {
+      "domain": "irs.gov",
+      "visits": "22726329"
+    },
+    {
+      "domain": "cdc.gov",
+      "visits": "18960957"
+    },
+    {
+      "domain": "usajobs.gov",
+      "visits": "17173765"
+    },
+    {
+      "domain": "nasa.gov",
+      "visits": "15442574"
+    },
+    {
+      "domain": "weather.gov",
+      "visits": "15084523"
+    },
+    {
+      "domain": "nps.gov",
+      "visits": "14171860"
+    },
+    {
+      "domain": "uscis.gov",
+      "visits": "10306879"
+    },
+    {
+      "domain": "socialsecurity.gov",
+      "visits": "7749273"
+    },
+    {
+      "domain": "ssa.gov",
+      "visits": "7731398"
+    },
+    {
+      "domain": "ceac.state.gov",
+      "visits": "6857587"
+    },
+    {
+      "domain": "fda.gov",
+      "visits": "6217798"
+    },
+    {
+      "domain": "egov.uscis.gov",
+      "visits": "5412737"
+    },
+    {
+      "domain": "noaa.gov",
+      "visits": "4764451"
+    },
+    {
+      "domain": "earthquake.usgs.gov",
+      "visits": "4729776"
+    },
+    {
+      "domain": "petitions.whitehouse.gov",
+      "visits": "4197411"
+    },
+    {
+      "domain": "fs.usda.gov",
+      "visits": "3917530"
+    },
+    {
+      "domain": "va.gov",
+      "visits": "3494638"
+    },
+    {
+      "domain": "bls.gov",
+      "visits": "3437308"
+    }
+  ],
+  "totals": {
+    "visits": 271844274
+  },
+  "taken_at": "2015-08-19T05:10:25.983Z"
+}

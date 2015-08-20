@@ -1,0 +1,146 @@
+{
+  "name": "today",
+  "query": {
+    "start-date": "today",
+    "end-date": "today",
+    "dimensions": "ga:date,ga:hour",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Today",
+    "description": "Today's visits for all sites."
+  },
+  "data": [
+    {
+      "date": "2015-08-19",
+      "hour": "00",
+      "visits": "478924"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "01",
+      "visits": "343544"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "02",
+      "visits": "283946"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "03",
+      "visits": "244423"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "04",
+      "visits": "238719"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "05",
+      "visits": "271947"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "06",
+      "visits": "377071"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "07",
+      "visits": "574919"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "08",
+      "visits": "812567"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "09",
+      "visits": "1043018"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "10",
+      "visits": "1177504"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "11",
+      "visits": "1231442"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "12",
+      "visits": "1210759"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "13",
+      "visits": "1214276"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "14",
+      "visits": "1239105"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "15",
+      "visits": "1220087"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "16",
+      "visits": "1157404"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "17",
+      "visits": "996626"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "18",
+      "visits": "842735"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "19",
+      "visits": "628286"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "20",
+      "visits": "0"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "21",
+      "visits": "0"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "22",
+      "visits": "0"
+    },
+    {
+      "date": "2015-08-19",
+      "hour": "23",
+      "visits": "0"
+    }
+  ],
+  "totals": {
+    "visits": 15587302,
+    "start_date": "2015-08-19",
+    "end_date": "2015-08-19"
+  },
+  "taken_at": "2015-08-20T00:40:03.541Z"
+}
