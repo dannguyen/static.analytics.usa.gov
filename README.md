@@ -9,9 +9,9 @@ https://analytics.usa.gov
 
 You can point them at:
 
-http://dannguyen.github.io/frozen.analytics.usa.gov
+https://dannguyen.github.io/frozen.analytics.usa.gov
 
-&ndash; and see what federal website traffic was like on [August 19, 2015](http://dannguyen.github.io/frozen.analytics.usa.gov).
+&ndash; and see what federal website traffic was like on [August 19, 2015](https://dannguyen.github.io/frozen.analytics.usa.gov).
 
 Examples in these tutorials/assignments for [Stanford Computational Journalism](http://www.compjour.org):
 
@@ -19,7 +19,7 @@ Examples in these tutorials/assignments for [Stanford Computational Journalism](
 
 ```py
 import requests
-base_url = 'http://dannguyen.github.io/frozen.analytics.usa.gov'
+base_url = 'https://dannguyen.github.io/frozen.analytics.usa.gov'
 r = requests.get(base_url + "/data/live/ie.json")
 print(r.json()['totals']['ie_version']['6.0'])
 ```
