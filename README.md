@@ -71,7 +71,7 @@ grep -oE '/live/[A-z0-9\-]+.json' index.html.orig | cut -c 7- |
 
 # replace the references to analytics.usa.gov as a data source
 sed -i "" \
-  's^data-source="https://analytics.usa.gov/data/live/^data-source="./data/live/^' \
+  's^https://analytics.usa.gov/data/live/^./data/live/^' \
   index.html
 ```
 
