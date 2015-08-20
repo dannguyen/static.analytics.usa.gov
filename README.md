@@ -15,8 +15,16 @@ http://dannguyen.github.io/frozen.analytics.usa.gov
 
 Examples in these tutorials/assignments for [Stanford Computational Journalism](http://www.compjour.org):
 
-- [The number of people who visited a U.S. government website using Internet Explorer 6.0 in the last 90 days ](https://github.com/compjour/search-script-scrape#task-3)
-- [Watching Traffic with the Network Panel](http://www.compjour.org/tutorials/watching-traffic-network-panel/)
+[The number of people who visited a U.S. government website using Internet Explorer 6.0 in the last 90 days ](https://github.com/compjour/search-script-scrape#task-3):
+
+```py
+import requests
+base_url = 'http://dannguyen.github.io/frozen.analytics.usa.gov'
+r = requests.get(base_url + "/data/live/ie.json")
+print(r.json()['totals']['ie_version']['6.0'])
+```
+
+[Watching Traffic with the Network Panel](http://www.compjour.org/tutorials/watching-traffic-network-panel/)
 
 
 ## How to waste time re-making this with bash
@@ -75,7 +83,7 @@ sed -i "" \
   index.html
 ```
 
-The file `To copy a fresh batch of data from their __live__ servers:
+To fetch a fresh batch of data from their __live__ servers:
 
 e.g. https://analytics.usa.gov/data/live/ie.json
 
