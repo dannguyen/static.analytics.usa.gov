@@ -5,11 +5,11 @@ This is a frozen, i.e. _static_ copy of [analytics.usa.gov](https://analytics.us
 
 If your scripts target:
 
-    https://analytics.usa.gov
+https://analytics.usa.gov
 
 You can point them at:
 
-    http://dannguyen.github.io/frozen.analytics.usa.gov
+http://dannguyen.github.io/frozen.analytics.usa.gov
 
 &ndash; and see what federal website traffic was like on [August 19, 2015](http://dannguyen.github.io/frozen.analytics.usa.gov).
 
