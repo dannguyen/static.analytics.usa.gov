@@ -35,6 +35,36 @@ wget --adjust-extension --span-hosts --convert-links --backup-converted \
 --user-agent="Mac OS X" \
 https://analytics.usa.gov
 
+# Copy the Open-Sans font
+curl http://www.fontsquirrel.com/fonts/download/open-sans -L -o /tmp/open-sans.zip
+unzip /tmp/open-sans.zip -d fonts/
+
+# Copy the way Google Fonts sets up the font:
+curl -s "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300.css" -o open-sans.css
+
+# Make relative path substitutions
+sed -E \
+  's/url.+/format("truetype");/' \
+  open-sans.css
+
+sed -i "" '1s/.*/@import url(.\/open-sans.css);/' public_analytics.css | head -n 1
+# eh i'll figure it out later... just do this regex on open-sans.css:
+# Find:
+# (?<=, )local\('(.+?)'\), url\(.+?\)
+# Replace:
+# local('\1'), url('fonts/\1.ttf')
+
+# Find:
+# OpenSans.ttf
+# Replace
+# OpenSans-Regular.ttf
+```
+
+
+
+### Copying the data
+
+```
 # get a list of the data jsons and make a list of them
 grep -oE '/live/[A-z0-9\-]+.json' index.html.orig | cut -c 7- | 
       sort | uniq > json-list.txt
